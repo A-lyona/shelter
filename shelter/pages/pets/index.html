@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cozy House</title>
+        <link rel="stylesheet" href="../../assets/fonts/arial/stylesheet.css">
+        <link rel="stylesheet" href="../../assets/fonts/georgia/stylesheet.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="../../assets/img/100.png" type="image/x-icon">
+    </head>
+    <body>
+        <!--........................................... popup ...........................................-->
+        <div class="popup">
+            <div class="our_friends_cards_popup">
+                <div class="our_friends_cards_popup_content">
+                    <div class="popup_image"></div>
+                    <div class="popup_block_text">
+                        <p class="popup_name"></p>
+                        <p class="popup_type"></p>
+                        <p class="popup_description"></p>
+                        <ul class="popup_list">
+                            <li class="popup_list_age"><span class="popup_span1">Age: <span class="popup_span_age"></span></span></li>
+                            <li class="popup_list_inoculations"><span class="popup_span2">Inoculations: <span class="popup_span_inoculations"></span></span></li>
+                            <li class="popup_list_diseases"><span class="popup_span3">Diseases: <span class="popup_span_diseases"></span></span></li>
+                            <li class="popup_list_parasites"><span class="popup_span4">Parasites: <span class="popup_span_parasites"></span></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="our_friends_cards_popup_button"></button>
+            </div>
+        </div>
+        <!--........................................... popup ...........................................-->        
+        <div class="wrapper">
+            <header>
+                <div class="header_wrapper">
+                    <a href="../main/index.html">
+                        <div class="header_logo">
+                            <h1 class="header_title_h1">Cozy House</h1>
+                            <p class="header_title">Shelter for pets in Boston</p>
+                        </div>
+                    </a>
+                    <nav class="header_nav">
+                        <ul class="header_nav_links">
+                            <li><a href="../main/index.html">About the shelter</a></li>
+                            <li class="active_link">Our pets</li>
+                            <li><a href="../main/index.html#help">Help the shelter</a></li>
+                            <li><a href="#footer">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--........................................... burger_menu ...........................................-->
+                <div class="burger_menu_wrapper">
+                    <div class="burger_menu_block">
+                        <ul class="burger_menu_links">
+                            <li><a href="../main/index.html" class="anchor_burger">About the shelter</a></li>
+                            <li class="active_link anchor_burger">Our pets</li>
+                            <li><a href="../main/index.html#help" class="anchor_burger">Help the shelter</a></li>
+                            <li><a href="#footer" class="anchor_burger">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="burger">
+                    <span class="burger_line"></span>
+                    <span class="burger_line"></span>
+                    <span class="burger_line"></span>
+                </div>
+                <!--........................................... burger_menu ...........................................-->
+            </header>
+            <main>
+                <section id="pets">
+                    <div class="pets_wrapper">
+                        <h3 class="pets_wrapper_title">Our friends who<br>are looking for a house</h3>
+                        <div class="pets_slider">
+                            <div class="card">
+                                <img src="../../assets/img/katrine.png" alt="cat" class="card_img">
+                                <p class="card_title">Katrine</p>
+                                <a href="" class="card_button">Learn more</a>
+                            </div>
+                            <div class="card">
+                                <img src="../../assets/img/jennifer.png" alt="dog" class="card_img">
+                                <p class="card_title">Jennifer</p>
+                                <a href="" class="card_button">Learn more</a>
+                            </div>
+                            <div class="card">
+                                <img src="../../assets/img/woody.png" alt="dog" class="card_img">
+                                <p class="card_title">Woody</p>
+                                <a href="" class="card_button">Learn more</a>
+                            </div>
+                            <div class="card">
+                                <img src="../../assets/img/sophia.png" alt="dog" class="card_img">
+                                <p class="card_title">Sophia</p>
+                                <a href="" class="card_button">Learn more</a>
+                            </div>
+                            <div class="card">
+                                <img src="../../assets/img/timmy.png" alt="cat" class="card_img">
+                                <p class="card_title">Timmy</p>
+                                <a href="" class="card_button">Learn more</a>
+                            </div>
+                            <div class="card">
+                                <img src="../../assets/img/charly.png" alt="dog" class="card_img">
+                                <p class="card_title">Charly</p>
+                                <a href="" class="card_button">Learn more</a>
+                            </div>
+                            <div class="card">
+                                <img src="../../assets/img/scarlet.png" alt="dog" class="card_img">
+                                <p class="card_title">Scarlet</p>
+                                <a href="" class="card_button">Learn more</a>
+                            </div>
+                            <div class="card">
+                                <img src="../../assets/img/freddie.png" alt="cat" class="card_img">
+                                <p class="card_title">Freddie</p>
+                                <a href="" class="card_button">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="pets_button">
+                            <button class="pets_button_one"></button>
+                            <button class="pets_button_two"></button>
+                            <button class="pets_button_three">1</button>
+                            <button class="pets_button_four pets_button_active"></button>
+                            <button class="pets_button_five pets_button_active"></button>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer id="footer">
+                <div class="footer_wrapper">
+                    <div class="footer_navigation">
+                        <div class="footer_navigation_communication">
+                            <h3 class="footer_title">For questions<br class="full"> and suggestions</h3>
+                            <a href="mailto:email@shelter.com">
+                                <div class="footer_navigation_email">
+                                    <img src="../../assets/img/iconemail.svg" alt="card">
+                                    <p>email@shelter.com</p>
+                                </div>
+                            </a>
+                            <a href="tel:5551234567">
+                                <div class="footer_navigation_phone">
+                                    <img src="../../assets/img/iconphone.svg" alt="card">
+                                    <p>+13 674 567 75 54</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="footer_navigation_visit">
+                            <h3 class="footer_title media320">We are waiting for your visit</h3>
+                            <a href="https://goo.gl/maps/WZKXjWhCj8oCLh4d8" target="_blank">
+                                <div class="footer_navigation_adress">
+                                    <img src="../../assets/img/iconmarker.svg" alt="card">
+                                    <p>1 Central Street, Boston (entrance from the store)</p>
+                                </div>
+                            </a>
+                            <a href="https://goo.gl/maps/WZKXjWhCj8oCLh4d8" target="_blank">
+                                <div class="footer_navigation_adress2">
+                                    <img src="../../assets/img/iconmarker.svg" alt="card">
+                                    <p>18 South Park, London </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer_image"></div>
+                </div>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
